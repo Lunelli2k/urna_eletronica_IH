@@ -491,15 +491,14 @@ void tocarSomUrna() {
   // Pequenos bipes iniciais
   for (int i = 0; i < 4; i++) {
 
-    tone(BUZZER, 2800, 50);
-
-    delay(100);
-
+    tone(BUZZER, 1337);
+    delay(90);
+    tone(BUZZER, 1437);
+    delay(90);
   }
 
   // Som final mais longo
-  tone(BUZZER, 2800, 1000);
-
-  delay(1100);
+  tone(BUZZER, 1337, 120);
+  delay(120);
 
 }
